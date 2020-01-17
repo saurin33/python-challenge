@@ -7,9 +7,10 @@ difference = []
 greatest_increase = []
 greatest_decrease = []
 
-budget_data_csv = os.path.join("/Users/saurin/desktop/", "budget_data.csv")
+budget_data_csv = os.path.join(
+    "/Users/saurin/desktop/Resources", "budget_data.csv")
 file_to_output = os.path.join(
-    "/Users/saurin/Desktop/python-challenge/PyBank", "financial_analysis.text")
+    "/Users/saurin/Desktop/bootcamp/python-challenge/PyBank", "financial_analysis.text")
 with open(budget_data_csv, newline='')as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',')
 

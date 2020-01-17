@@ -8,9 +8,10 @@ candidate_votes = {}
 winner = ""
 winning_count = 0
 
-election_data_csv = os.path.join("/Users/saurin/Desktop/", "election_data.csv")
+election_data_csv = os.path.join(
+    "/Users/saurin/Desktop/Resources", "election_data.csv")
 file_to_output = os.path.join(
-    "/Users/saurin/Desktop/python-challenge/PyPoll", "election_analysis.text")
+    "/Users/saurin/Desktop/bootcamp/python-challenge/PyPoll", "election_analysis.text")
 
 with open(election_data_csv, newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')

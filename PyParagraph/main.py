@@ -1,7 +1,8 @@
 import os
 import string
 
-paragraph_txt = os.path.join("/Users/saurin/Desktop/", "paragraph_1.txt")
+paragraph_txt = os.path.join(
+    "/Users/saurin/Desktop/Resources", "paragraph_1.txt")
 word_list = []
 word_count = 0
 sentence_count = 0

@@ -62,7 +62,8 @@ ssn = []
 state = []
 
 
-py_boss_csv = os.path.join("/Users/saurin/Desktop", "employee_data.csv")
+py_boss_csv = os.path.join(
+    "/Users/saurin/Desktop/Resources", "employee_data.csv")
 # new_employee_data = []
 with open(py_boss_csv, 'r')as csvfile:
     reader = csv.DictReader(csvfile)
